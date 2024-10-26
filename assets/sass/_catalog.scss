@@ -10,7 +10,6 @@
 }
 
 .item_big {
-    background-color: red;
     grid-column: span 2;
     border-radius: 50px;
 }
@@ -18,10 +17,43 @@
 .pillow_1 {
     background: url(../images/pillow_1.jpg)  0px 0px/cover no-repeat;
 }
-// mattress_1
-// bed_linen_1
-// bed_linen_2
-// pillow_2
-//         <dmattress_2
-// bed_linen_3
-// blanket_1
+
+.mattress_1 {
+    background: url(../images/mattress_1.jpg)  0px 0px/cover no-repeat;
+}
+
+.bed_linen_1 {
+    background: url(../images/bed_linen_1.jpg)  0px 0px/cover no-repeat;
+}
+
+.bed_linen_2 {
+    background: url(../images/bed_linen_2.jpg)  0px 0px/cover no-repeat;
+}
+
+.pillow_2 {
+    background: url(../images/pillow_2.jpg)  0px 0px/cover no-repeat;
+}
+
+.towels {
+    background: url(../images/towels.jpg)  0px 0px/cover no-repeat;
+}
+
+.bed_linen_3 {
+    background: url(../images/bed_linen_1.jpg)  0px 0px/cover no-repeat;
+}
+
+.blanket_1 {
+    background: url(../images/blanket_1.jpg)  0px 0px/cover no-repeat;
+}
+
+.blanket_2 {
+    background: url(../images/blanket_2.jpg)  0px 0px/cover no-repeat;
+}
+
+.blanket_3 {
+    background: url(../images/blanket_3.jpg)  0px 0px/cover no-repeat;
+}
+
+.blanket_4 {
+    background: url(../images/pillow_2.jpg)  0px 0px/cover no-repeat;
+}
