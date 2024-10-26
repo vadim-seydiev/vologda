@@ -1,0 +1,27 @@
+.catalog {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 545px);
+    gap: 10px;
+}
+
+.item {
+    border-radius: 50px;
+}
+
+.item_big {
+    background-color: red;
+    grid-column: span 2;
+    border-radius: 50px;
+}
+
+.pillow_1 {
+    background: url(../images/pillow_1.jpg)  0px 0px/cover no-repeat;
+}
+// mattress_1
+// bed_linen_1
+// bed_linen_2
+// pillow_2
+//         <dmattress_2
+// bed_linen_3
+// blanket_1
