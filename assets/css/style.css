@@ -15,12 +15,132 @@ img {
 }
 
 .item {
-  border-radius: 50px;
+  border-radius: 31.48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 54px 50px;
+  color: rgb(255, 255, 255);
+  box-shadow: 1px 17px 160px rgba(0, 0, 0, 0.15);
+  text-align: center;
 }
 
 .item_big {
   grid-column: span 2;
-  border-radius: 50px;
+  border-radius: 31.48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 54px 50px;
+  color: rgb(255, 255, 255);
+  box-shadow: 1px 17px 160px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.info__title {
+  font-size: 16.9px;
+  font-weight: 500;
+  line-height: 24.1px;
+  color: rgba(255, 255, 255, 0.514);
+}
+
+.info__title_2 {
+  font-size: 27.6px;
+  font-weight: 600;
+  line-height: 24.1px;
+  margin-top: 5px;
+}
+
+.price {
+  font-size: 19.31px;
+  font-weight: 400;
+  line-height: 29px;
+  margin-top: 15px;
+}
+
+.colors_union {
+  display: flex;
+  gap: 8px;
+  margin-top: 15px;
+}
+
+.colors {
+  font-size: 14.48px;
+  font-weight: 400;
+  line-height: 21.7px;
+  color: rgba(255, 255, 255, 0.801);
+}
+
+.colors_outer_1 {
+  width: 15px;
+  height: 15px;
+  padding: 2px;
+  border-radius: 100px;
+  border: 1px solid #9ca3af;
+}
+
+.colors_outer_2 {
+  width: 15px;
+  height: 15px;
+  padding: 2px;
+  border-radius: 100px;
+}
+
+.colors_outer_3 {
+  width: 15px;
+  height: 15px;
+  padding: 2px;
+  border-radius: 100px;
+}
+
+.colors_inner_1 {
+  width: 100%;
+  height: 100%;
+  background: #c1cde7;
+  border-radius: 100px;
+}
+
+.colors_inner_2 {
+  width: 100%;
+  height: 100%;
+  background: #8B9BC4;
+  border-radius: 100px;
+}
+
+.colors_inner_3 {
+  width: 100%;
+  height: 100%;
+  background: #526F99;
+  border-radius: 100px;
+}
+
+.buttons {
+  display: flex;
+  gap: 5px;
+  margin-top: 15px;
+}
+
+.first-button {
+  font-weight: 300;
+  font-size: 13.8px;
+  line-height: 24.14px;
+  color: #7899a6;
+  border: 1px solid #f1eaea;
+  border-radius: 28px;
+  padding: 6px 19px;
+  cursor: pointer;
+  background-color: rgb(250, 250, 250);
+}
+
+.second-button {
+  font-weight: 300;
+  font-size: 13.8px;
+  line-height: 24.14px;
+  color: #ffffff;
+  border: 1px solid #f1eaea;
+  border-radius: 28px;
+  padding: 6px 17px;
+  cursor: pointer;
 }
 
 .pillow_1 {
